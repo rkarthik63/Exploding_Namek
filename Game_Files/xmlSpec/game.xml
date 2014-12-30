@@ -1,0 +1,338 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Karthik's_Dragon_Ball_Z</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>200</frameMax>
+<username>ramakri</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>10000</width>
+  <height>480</height>
+</world>
+
+<back>
+  <file>images/checkerboard.bmp</file>
+  <red>112</red>
+  <green>128</green>
+  <blue>144</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>960</width>
+  <height>960</height>
+  <transparency>false</transparency>
+</back>
+
+<back1>
+  <file>images/bg1.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>10</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>2580</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back1>
+
+<back2>
+  <file>images/namec.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>5</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1290</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back2>
+
+<back3>
+  <file>images/fg1.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>2580</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back3>
+
+<back4>
+  <file>images/fog.bmp</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1290</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back4>
+
+
+<font name="font">
+  <file>font/fedserviceexpbold.ttf</file>
+  <size>13</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<raindrop>
+  <file>images/raindrop.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>3</width>
+  <height>34</height>
+  <startLoc x="0" y="0"/>
+  <speedX>0</speedX>
+  <speedY>500</speedY>
+  <scale min="0.25" max="2.0"/>
+  <rainDensity>1000</rainDensity>
+  <transparency>true</transparency>
+</raindrop>
+
+<frieza>
+  <file>images/f_stand.bmp</file>
+  <startLoc x="9600" y="250"/>
+  <frames>3</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>60</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <slowFactor>0.95</slowFactor>
+  <stand>fstand</stand>
+  <blast>fblast</blast>
+  <Bullet>fbullet</Bullet>
+  <healthhud>fhealth</healthhud>
+    <chunk>
+    <size>10</size>
+    <distance>20</distance>
+  </chunk>
+</frieza>
+
+<fblast>
+  <file>images/f_blast.bmp</file>
+  <transparency>true</transparency>  
+  <frames>3</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>60</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>  
+</fblast>
+
+<fstand>
+  <file>images/f_stand.bmp</file>
+  <transparency>true</transparency>  
+  <frames>3</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>60</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>  
+</fstand>
+
+<fhealth>
+<startY>25</startY>
+<startX>530</startX>
+<totallength>300</totallength>
+<currentlength>0</currentlength>
+<thick>14</thick>
+<increments>1</increments>
+<interval>100</interval>
+<red>155</red>
+<green>0</green>
+<blue>50</blue>
+</fhealth>
+
+<fbullet>
+<file>images/f_bullet.bmp</file>
+<speedX>800</speedX>
+<interval>700</interval>
+<distance>450</distance>
+</fbullet>
+
+<vegeta>
+  <file>images/vegeta_final.bmp</file>
+  <startLoc x="120" y="350"/>
+  <frames>3</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>50</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <slowFactor>0.95</slowFactor>
+  <stand>vstand</stand>
+  <right>vright</right>  
+  <up>vup</up>
+  <down>vdown</down>  
+  <dash>vdash</dash>
+  <blast>vblast</blast>
+  <Bullet>bullet</Bullet>
+  <healthhud>vhealth</healthhud>
+    <chunk>
+    <size>10</size>
+    <distance>20</distance>
+  </chunk>
+</vegeta>
+
+<vhealth>
+<startY>25</startY>
+<startX>10</startX>
+<totallength>200</totallength>
+<currentlength>200</currentlength>
+<thick>14</thick>
+<increments>1</increments>
+<interval>100</interval>
+<red>0</red>
+<green>0</green>
+<blue>255</blue>
+</vhealth>
+
+<bullet>
+<file>images/blast.bmp</file>
+<speedX>700</speedX>
+<interval>250</interval>
+<distance>350</distance>
+</bullet>
+
+<vstand>
+  <file>images/v_stand.bmp</file>
+  <frames>3</frames>
+  <transparency>true</transparency>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>50</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>  
+</vstand>
+
+<vright>
+  <file>images/v_right.bmp</file>
+  <transparency>true</transparency>  
+  <frames>3</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>50</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>  
+</vright>
+
+<vblast>
+  <file>images/v_blast.bmp</file>
+  <transparency>true</transparency>  
+  <frames>3</frames>
+  <frameInterval>20c</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>50</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>  
+</vblast>
+
+
+<vup>
+  <file>images/v_up.bmp</file>
+  <transparency>true</transparency>  
+  <frames>3</frames> 
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>50</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>  
+</vup>
+
+<vdown>
+  <file>images/v_down.bmp</file>
+  <transparency>true</transparency>  
+  <frames>3</frames> 
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>50</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>  
+</vdown>
+
+<vdash>
+  <file>images/v_dash.bmp</file>
+  <transparency>true</transparency>  
+  <frames>3</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>  
+  <width>50</width>
+  <height>70</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>  
+</vdash>
+
+<meteor>
+  <file>images/namek_fireball.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>150</width>
+  <height>150</height>
+  <startLoc x="0" y="0"/>
+  <speedX>0</speedX>
+  <speedY>300</speedY>
+  <scale min="0.1" max="0.75"/>
+  <meteorDensity>150</meteorDensity>
+  <transparency>true</transparency>
+  <chunk>
+    <size>50</size>
+    <distance>100</distance>
+  </chunk>
+</meteor>
+
+<greenorb>
+  <file>images/greenball.bmp</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>32</width>
+  <height>32</height>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</greenorb>
+
+</GameData>

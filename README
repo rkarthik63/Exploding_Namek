@@ -1,0 +1,35 @@
+Name: Karthik Ramakrishnan
+Clemson Email Address: ramakri@g.clemson.edu
+
+Project no: 7
+Project due date: Dec, 6, NOON
+Project description: Playable Game 
+
+The Specs that I implemented in this release are:
+1. AI 
+2. Conclusion
+3. GamePlay and Restart
+4. Robust Game void of leaks
+5. Time delayed HUD w/game
+6. Movie & Demo
+
+GAME DESCRIPTION:
+
+The main theme of this game is to defeat AI incorporated Frieza (enemy player) who tries to shoot downvVEGETA by tracking his position continuously. 
+
+The meteors take down the health of vegeta, so he has to evade or blow them apart before taking on Frieza in the BATTLEZONE.
+
+TO COMPILE:
+>> make
+
+TO RUN:
+>> ./run
+
+Extras: 
+Kiosk mode is enabled i.e. in the BATTLEZONE, vegeta cannot move backwards to the start of the game. i.e. the BATTLE is inevitable
+
+CREDITS:
+Dr. Brian Malloy, Clemson University for providing the inspiration and base framework for the game. 
+
+DISCLAIMER:
+I do not own any of the characters of the game. The game was developed purely for educational purposes only. All characters in the game are part of the copyright of FUNIMATION, W. SHONEN JUMP, Akira Toriyama

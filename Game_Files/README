@@ -1,0 +1,37 @@
+Name: Karthik Ramakrishnan
+Clemson Email Address: ramakri@g.clemsone.edu
+
+Project no: 7
+Project due date: Dec, 6, NOON
+Project description: Playable Game 
+
+
+The Specs that I implemented in this release are:
+1. AI 
+2. Conclusion
+3. GamePlay and Restart
+4. Robust Game void of leaks
+5. Time delayed HUD w/game
+6. Movie & Demo
+
+GAME DESCRIPTION:
+
+The main theme of this game is to defeat AI incorporated Frieza (enemy player) who tries to shoot down  
+the PRINCE OF ALL SAIYANS,VEGETA by tracking his position continuously. 
+
+The meteors take down the health of vegeta, so he has to evade or blow them apart before taking on Frieza in the BATTLEZONE 
+
+The Specs that I did not implement are: None 
+
+LIST OF FILES:
+README, All files from previous submission + aaline.h, aaline.cpp, player.h, player.cpp + explodingSprite.* + rotateAndScaledSprite.*, bulletPool.*, bullet.*, menuManager.*, menu.*
+
+TO COMPILE:
+>> make
+
+TO RUN:
+>> ./run
+
+Extras: 
+Kiosk mode is enabled i.e. in the BATTLEZONE, vegeta cannot move backwards to the start of the game. i.e. the BATTLE is inevitable
+
